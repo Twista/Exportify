@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SHOP>
+    {foreach $items as $item}
+    <SHOPITEM>
+	<PRODUCT>{$item->name}</PRODUCT>
+	{if isset($item->description)}
+	<DESCRIPTION>{$item->description}</DESCRIPTION>{/if}
+	<URL>{$item->url}</URL>
+	<IMGURL>{$item->imgurl}</IMGURL>
+	<PRICE>{$item->price}</PRICE>
+	<PRICE_VAT>{$item->price_vat}</PRICE_VAT>
+	<EAN>{$item->ean}</EAN>
+    </SHOPITEM>
+    {/foreach}
+</SHOP>
