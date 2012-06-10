@@ -78,7 +78,7 @@ class Exportify {
 		'{/if}' => '<?php endif; ?>',
 		'{/foreach}' => '<?php endforeach; ?>',
 		'{$%%}' => '<?php echo $\1; ?>',
-		'<?xml' => '<?php print "<?xml" ?>', // necessary for xml e.g.: 
+		'<?xml' => '<?php print "<?xml" ?>',
 	    );
 
 	    foreach ($keys as $key => $val) {
