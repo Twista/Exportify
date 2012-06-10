@@ -1,9 +1,9 @@
 <?php
+
 /**
  * exportify testing case
  * @author Michal Haták <me@twista.cz>
  */
-
 require '../exportify.php';
 
 $export = new \Exportify\Exportify();
