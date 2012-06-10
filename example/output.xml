@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SHOP>
+        <SHOPITEM>
+	<PRODUCT>test</PRODUCT>
+		<DESCRIPTION>desc</DESCRIPTION>	<URL>http://example.com</URL>
+	<IMGURL>http://example.com/img.jpg</IMGURL>
+	<PRICE>4</PRICE>
+	<PRICE_VAT>4.2</PRICE_VAT>
+	<EAN>131243</EAN>
+    </SHOPITEM>
+        <SHOPITEM>
+	<PRODUCT>eset</PRODUCT>
+		<URL>http://twista.cz</URL>
+	<IMGURL>http://twista.cz/image.jpg</IMGURL>
+	<PRICE>6</PRICE>
+	<PRICE_VAT>9.2</PRICE_VAT>
+	<EAN>131243</EAN>
+    </SHOPITEM>
+    </SHOP>
