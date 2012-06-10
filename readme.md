@@ -3,7 +3,8 @@ Exportify
 Description
 -
 
-Exportify is simple export class (mainly XML)
+Exportify is simple export class (mainly XML)<br>
+inspired by Nette\Late engine
 
 Examples
 -
