@@ -1,0 +1,9 @@
+{
+    "name": "Exportify",
+    "description" : "Simple export class",
+    "version": "1.0.0",
+    
+    "require": {
+	"php" : ">=5.3.0"
+    }
+}
